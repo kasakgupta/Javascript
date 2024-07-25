@@ -12,6 +12,14 @@ console.log(CreatedDate.toLocaleString())
 
 let TimeStamp = Date.now()
 
-console.log(TimeStamp);
-console.log(CreatedDate.getTime());
-console.log(Math.floor(Date.now()/1000))
+// console.log(TimeStamp);
+// console.log(CreatedDate.getTime());
+// console.log(Math.floor(Date.now()/1000))
+
+let newDate = new Date()
+console.log(newDate.getDay()) // get method to retrieve the particular information about the date
+
+
+newDate.toLocaleString('default', {
+    weekday: "long",
+})
