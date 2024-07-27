@@ -32,3 +32,22 @@ console.log(obj3);
 console.log(Object.keys(instaUser));
 console.log(Object.entries(instaUser))
 console.log(instaUser.hasOwnProperty('isLoggedIn'))
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: tutor} = course  //destructuring
+console.log(tutor)
+
+//Json format
+
+// {
+//     "name": "kasak",
+//     "age": "19",
+//     "city": "Delhi"
+// }
