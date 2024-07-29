@@ -34,3 +34,28 @@ function Usermsg(username){
 
 // console.log(Usermsg("kasak"))
 console.log(Usermsg()) //if we do not pass any value it will print undefined
+
+function calcCartPrice(...num1){  //... rest operator
+    return num1
+}
+
+console.log(calcCartPrice(200, 400, 500))
+
+const user = {
+    username: "kasak",
+    price: 299
+}
+
+function Objecthandler(obj) {
+    console.log(`user is ${obj.username} and price is ${obj.price}`);
+}
+
+Objecthandler(user)
+
+Array = [100, 400, 800, 200]
+
+function secondValue(getArray){
+    return getArray[1]
+}
+
+console.log(secondValue(Array));
