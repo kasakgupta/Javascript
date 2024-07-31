@@ -10,7 +10,7 @@
 ( (name) => {
     // This function takes a parameter 'name' and logs a message with it
     console.log(`DB CONNECTED TWO ${name}`);
-} )('kasak'); // The IIFE is immediately invoked with 'kasak' as the argument
+} )('kasak') // The IIFE is immediately invoked with 'kasak' as the argument
 
 
 // Explanation:
