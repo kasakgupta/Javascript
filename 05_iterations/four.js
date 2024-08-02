@@ -33,3 +33,7 @@ for (const key in programming) {
 // for (const key in map) {
 //     console.log(key); // This will not work as intended for a Map
 // }
+
+// Notes:
+// For...in: Best used for iterating over the properties of an object.
+// For...of: Best used for iterating over iterable objects like arrays, strings, maps, and sets.
